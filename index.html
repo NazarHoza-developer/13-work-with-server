@@ -9,6 +9,20 @@
 </head>
 <body>
     <p>13-work with server</p>
+    <nav>
+        <button class="episode" onclick="getEpisode()">V-episode</button>
+        <button class="palanets" onclick="getPlanets()">Planets</button>
+    </nav>
+        <div class="all-navigation">
+            <div class="episode-container"></div>
+            <div class="planets-container">
+                <div class="planets-content-block"></div>
+                <div class="planets-nav-btn" style="display: none;">
+                    <button onclick="navigation('previous')">Prev</button>
+                    <button onclick="navigation('next')">Next</button>
+                </div>
+            </div>
+        </div>
     <script src="js/script.js"></script>
 </body>
 </html>
